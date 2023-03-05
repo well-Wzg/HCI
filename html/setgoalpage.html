@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/setgoalpage.css">
+<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+  </style>
+  <body onload='init()'>
+    <div class="container box">
+      <div class="row">
+        <!-- 左侧 -->
+        <div class="col-md-3 box2" id="hideMessageBox">
+          <div class="col-md-4">
+            <div class="box3"></div>
+            <img id="hideMessageBoxImg" src="../img/隐藏侧边栏.png" alt="">
+          </div>
+          <div class="col-md-4">
+            <div class="box3"></div>
+          </div>
+          <div class="col-md-6"></div>
+        </div>
+
+        <div class="col-md-3 box2" id="leftStatus">
+          <div class="col-md-4">
+            <div class="box3"></div>
+            <img  id="showMesssageBoxImg1"  class="img1" src="../img/当前状态.png" alt="">
+          </div>
+          <div class="col-md-4">
+            <div class="box3"></div>
+           <img id="showMesssageBoxImg2" class="img2" src="../img/if-fire.png" alt="">
+            <img id="img3" src="../img/返回.png" alt="">
+          </div>
+
+
+          <div class="col-md-6"></div>
+        </div>
+        <!-- 中心 -->
+        <div class="col-md-8">
+          <div class="box4 text-center" id="box4">
+            <img id="" src="../img/切换popup.png" alt="">
+            <p class="titleft">Default:<br/> Restaurant</p>
+          </div>
+          <div id="position">
+          <img id="img4" class="img5 " src="../img/他人位置Copy.png" alt="">
+          <img id="img5" class="img4" src="../img/我的位置.png" alt="">
+          <img id="img6" class="img6" src="../img/定位 Copyhidden.png" alt="">
+        </div>
+<div class="box5 text-center">
+  <a href="#"><div class="yl first"></div></a>
+  <a href="#"><div class="yl seconed"></div></a>
+  <a href="#"><div class="yl third"></div></a>
+  <a href="#"><div class="yl fourth"></div></a>
+  <a href="#"><div class="yl fifth"></div></a>
+  <!-- 聊天框 -->
+<div id="chatBox" class="box8">
+  <div style="height: 162px;"></div>
+<a id="btn">
+<div class="box11"></div>
+</a>
+</div>
+<div id="box10">
+  <img id="back" style="position: absolute;top: 20px;right: 20px;" src="../img/iconPark-return.png" alt="">
+</div>
+</div>
+
+<div class="box6 text-center">
+  <a href="#"><img id="img7" src="../img/搜索地点.png" alt=""></a>
+  <a href="#"><img id="img8" src="../img/聊天.png" alt=""></a>
+</div>
+
+        </div>
+        <div class="col-md-1">
+          <!-- 右侧 -->
+        <div class="mg10">
+          <a href="../html/peasonal.html"><img src="../img/群组.png" alt=""></a>
+        </div>
+        <div class="mg10">
+          <a href="../html/set.html"><img src="../img/设置.png" alt=""></a>
+        </div>
+        <div class="mg10">
+          <a href="../html/addFriend.html"><img src="../img/添加好友.png" alt=""></a>
+        </div>
+          <a href="#"><img id="img9" src="../img/3D视角.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  function init(){
+    document.getElementById("hideMessageBox").style.display="none"
+    document.getElementById("position").style.display="none"
+    document.getElementById("box4").style.display="none"
+    document.getElementById("box10").style.display="none";
+  }
+
+  
+  $('#btn').bind('click',function(){
+    document.getElementById("chatBox").style.display="none"
+    document.getElementById("position").style.display="inline-block"
+    document.getElementById("img4").style.display="block"
+    document.getElementById("img5").style.display="block"
+    document.getElementById("img6").style.display="block"
+
+  })
+// 隐藏左边菜单栏
+  $('#img3').bind('click',function(){
+    document.getElementById("leftStatus").style.display="none";
+    document.getElementById("hideMessageBox").style.display="inline-block";
+    document.getElementById("hideMessageBox").style.background="none";
+  })
+// 点击显示左边菜单栏
+  $('#hideMessageBoxImg').bind('click',function(){
+    document.getElementById("leftStatus").style.display="inline-block";
+    document.getElementById("hideMessageBox").style.display="none";
+    document.getElementById("hideMessageBox").style.background="url(../img/选择餐厅，公园页面.png) no-repeat";
+  })
+
+  $('#showMesssageBoxImg1' ).bind('click',function(){
+    init()
+    document.getElementById("chatBox").style.display="inline-block"
+    document.getElementById("img4").style.display="none"
+    document.getElementById("img5").style.display="none"
+    document.getElementById("img6").style.display="none"
+    document.getElementById("img7").style.display="inline-block";
+    document.getElementById("img8").style.display="inline-block";
+  })
+
+  $('#img8' ).bind('click',function(){
+    init()
+    document.getElementById("box10").style.display="inline-block";
+    document.getElementById("chatBox").style.display="none";
+    document.getElementById("img7").style.display="none";
+    document.getElementById("img8").style.display="none";
+  })
+
+  $('#back' ).bind('click',function(){
+    location.reload();
+  })
+</script>

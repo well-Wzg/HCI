@@ -1,0 +1,35 @@
+.box {
+  height: 400px;
+  background-color: antiquewhite;
+  background: url(../img/矩形背景.png) round;
+  z-index: 0;
+}
+.box2 {
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+.box3 {
+  height: 120px;
+}
+.box4 {
+  height: 50px;
+}
+.box5 {
+  height: 300px;
+  color: aliceblue;
+  font-weight: 600;
+}
+#backbtn {
+  margin: 10px;
+}
+
+.h3 {
+  font-weight: 700;
+  color: aliceblue;
+}
+#setBtn {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}

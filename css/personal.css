@@ -1,0 +1,44 @@
+.box {
+  height: 400px;
+  background-color: antiquewhite;
+  background: url(../img/矩形背景.png) round;
+  z-index: 0;
+}
+.box3 {
+}
+.box4 {
+  height: 50px;
+}
+.box5 {
+  height: 300px;
+  color: aliceblue;
+  font-weight: 600;
+  margin-left: 100px;
+}
+.box6 {
+  height: 50px;
+}
+.box7 {
+  height: 400px;
+}
+#kefu {
+  position: absolute;
+  bottom: 20px;
+}
+#backbtn {
+  margin: 10px;
+}
+#userImg {
+  margin: 25px;
+}
+.h4 {
+  margin: 0px 20px 0px 30px;
+}
+#lianxiren {
+  margin-left: 100px;
+}
+.h3 {
+  font-weight: 700;
+  color: aliceblue;
+  margin-left: 100px;
+}

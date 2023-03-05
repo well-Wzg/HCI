@@ -1,0 +1,71 @@
+.box {
+  height: 400px;
+  background-color: antiquewhite;
+  background: url(../img/背景.png) round;
+  z-index: 0;
+}
+.mg10 {
+  margin-top: 10px;
+}
+.box2 {
+  height: 400px;
+  background: url(../img/选择餐厅，公园页面.png) no-repeat;
+  position: relative;
+}
+.img1 {
+  width: 114px;
+  height: 108px;
+}
+.img2 {
+  width: 80px;
+  height: 108px;
+  margin-top: 20px;
+}
+.box3 {
+  height: 200px;
+  width: auto;
+}
+.box5 {
+  height: 344px;
+  width: auto;
+}
+.box6 {
+  height: auto;
+}
+.box6 img {
+  margin: 0px 20px 0px 20px;
+}
+.box8 {
+  margin-top: 15px;
+  width: 415px;
+  height: 315px;
+  background: url(../img/聊天框.png) no-repeat;
+  display: inline-block;
+  border-radius: 10px;
+}
+#img3 {
+  position: absolute;
+  left: 80px;
+  bottom: -60px;
+}
+
+#img9 {
+  position: absolute;
+  right: 10px;
+  bottom: -200px;
+}
+#img10 {
+  position: absolute;
+  right: 200px;
+  top: 45px;
+}
+.box7 {
+  position: relative;
+}
+.titleft {
+  position: absolute;
+  top: 23px;
+  left: 358px;
+  font-size: 10px;
+  font-weight: 700;
+}

@@ -1,0 +1,139 @@
+.box {
+  height: 400px;
+  background-color: antiquewhite;
+  background: url(../img/背景.png) round;
+  z-index: 0;
+}
+.mg10 {
+  margin-top: 10px;
+}
+.box2 {
+  height: 400px;
+  background: url(../img/选择餐厅，公园页面.png) no-repeat;
+  position: relative;
+}
+#hideMessageBoxImg {
+  position: absolute;
+  left: -15px;
+  top: 100px;
+}
+.img1 {
+  width: 114px;
+  height: 108px;
+}
+.img2 {
+  width: 80px;
+  height: 108px;
+  margin-top: 20px;
+}
+.box3 {
+  height: 200px;
+  width: auto;
+}
+.box4 {
+  margin: 20px;
+  height: 100px;
+  width: auto;
+}
+.box5 {
+  height: 310px;
+  width: auto;
+}
+.box6 {
+  height: auto;
+}
+.box6 img {
+  margin: 0px 20px 0px 20px;
+}
+.box8 {
+  margin-top: 50px;
+  width: 350px;
+  height: 230px;
+  background: url(../img/密码弹窗.png) no-repeat;
+  display: inline-block;
+  border-radius: 10px;
+}
+.box11 {
+  width: 290px;
+  height: 63px;
+}
+#box10 {
+  margin-top: 15px;
+  width: 415px;
+  height: 315px;
+  background: url(../img/聊天框.png) no-repeat;
+  display: inline-block;
+  border-radius: 10px;
+  position: relative;
+}
+#img3 {
+  position: absolute;
+  left: 80px;
+  bottom: -60px;
+}
+.img4 {
+  position: absolute;
+  right: 142px;
+  top: 80px;
+}
+
+.img5 {
+  position: absolute;
+  left: 142px;
+  top: 80px;
+}
+.img6 {
+  position: absolute;
+  left: 367px;
+  bottom: 67px;
+}
+#img9 {
+  position: absolute;
+  right: 10px;
+  bottom: -200px;
+}
+.box7 {
+  position: relative;
+}
+.titleft {
+  position: absolute;
+  top: 23px;
+  left: 358px;
+  font-size: 10px;
+  font-weight: 700;
+}
+.box9 {
+  margin-top: 166px;
+  height: 56px;
+  width: 288px;
+}
+.yl {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.first {
+  position: absolute;
+  top: 70px;
+  left: -33px;
+}
+.seconed {
+  position: absolute;
+  top: 108px;
+  left: -15px;
+}
+.third {
+  position: absolute;
+  top: 136px;
+  left: 31px;
+}
+.fourth {
+  position: absolute;
+  right: 161px;
+  bottom: 75px;
+}
+.fifth {
+  position: absolute;
+  left: 229px;
+  bottom: -36px;
+}
